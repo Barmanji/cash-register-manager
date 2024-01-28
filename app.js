@@ -4,7 +4,7 @@ let checkButton = document.querySelector("#button");
 let message = document.querySelector("#error-message");
 let noOfNotes = document.querySelectorAll(".no-of-notes");
 
-let availableNotes = [2000, 500, 200, 100, 50, 20, 10, 5, 2, 1];
+let availableNotes = [500, 200, 100, 50, 20, 10, 5, 2, 1];
 
 checkButton.addEventListener("click", function validateBillAndCashAmount() {
   hideMessage();
