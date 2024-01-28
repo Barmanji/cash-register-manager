@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --primary-color: #24e97c;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    min-width: 100vw;
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+.container {
+    margin: 4rem auto 7rem;
+    text-align: center;
+}
+
+.heading {
+    color: var(--primary-color);
+
+}
+
+.description {
+    font-size: larger;
+    margin: 1rem;
+}
+
+.input-label {
+    display: block;
+    font-size: large;
+    font-weight: bold;
+}
+
+.input {
+    font-size: 14px;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+}
+
+#button {
+    background: var(--primary-color);
+    color: black;
+    border: none;
+
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+}
+
+#error-message {
+    display: none;
+    font-size: larger;
+    margin: 1rem 0 0;
+}
+
+
+
+
+th,
+td {
+    border: 2px solid var(--primary-color);
+    width: 0%;
+    border-collapse: collapse;
+    padding: 0.4rem;
+
+
+}
+
+.notes-table caption {
+    margin: 1rem auto;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.notes-table {
+    width: 50%;
+    text-align: justify;
+    border-collapse: collapse;
+    margin: auto;
+
+
+}
+
+
+/* footer */
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-size: large;
+    text-align: center;
+}
+
+.footer-list {
+    margin: 1rem;
+}
+
+a,
+img,
+li {
+    display: inline;
+}
+
+img {
+    width: 40px;
+    padding: 0.2rem;
+}
+
+.footer-list .links:hover img {
+    filter: brightness(150%);
+    opacity: 0.9;
+}

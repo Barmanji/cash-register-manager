@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cash Register!</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Cash Register Manager</h1>
+        <p class="description"><span title="Type the amount that you have/coustomer has to pay!">Enter the bill
+                amount</span> and cash given
+            by the customer to know the minimum no. of notes to return.</p>
+        <label for="bill-amount" class="input-label">Bill Amount:</label>
+        <input type="text" id="bill-amount" class="input">
+        <label for="cash-amount" class="input-label" title="Cash given by the customer">Cash Given:</label>
+        <input type="text" class="input" id="cash-amount">
+        <button id="button">check</button>
+        <p id="error-message">error-message</p>
+        <table class="notes-table">
+            <caption>Return Table</caption>
+            <tr>
+                <th>No. of notes</th>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+
+            </tr>
+            <tr>
+                <th>Notes/Coins</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>200</td>
+                <td>100</td>
+                <td>50</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <footer>
+        <ul class="footer-list">
+            <li>
+                <a class="links" href="https://github.com/Barmanji" target="_blank">
+                    <img src="images/github.svg" alt="github" />
+                </a>
+            </li>
+
+            <li>
+                <a class="links" href="https://twitter.com/ItsBarmanji" target="_blank">
+                    <img src="images/twitter.png" alt="twitter" />
+                </a>
+            </li>
+            <li>
+                <a class="links" href="https://www.linkedin.com/in/ajay-barman-0b37011a7/" target="_blank">
+                    <img src="images/linkedin.png" alt="linkedin" />
+                </a>
+            </li>
+        </ul>
+        <p>© | 2024 | Barmanji</p>
+
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
