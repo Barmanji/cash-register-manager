@@ -10,16 +10,19 @@
 
 <body>
     <div class="container">
+
         <h1 class="heading">Cash Register Manager</h1>
+        
         <p class="description"><span title="Type the amount that you have/coustomer has to pay!">Enter the bill
                 amount</span> and cash given
-            by the customer to know the minimum no. of notes to return.</p>
+            by the customer to know the minimum no. of notes to return.
+            <br>Note- Bill amount must be <= Cash Given && Bill Amount != 0.</p>
         <label for="bill-amount" class="input-label">Bill Amount:</label>
         <input type="text" id="bill-amount" class="input">
         <label for="cash-amount" class="input-label" title="Cash given by the customer">Cash Given:</label>
         <input type="text" class="input" id="cash-amount">
         <button id="button">check</button>
-        <p id="error-message">error-message</p>
+        <p id="error-message"></p>
         <table class="notes-table">
             <caption>Return Table</caption>
             <tr>
@@ -51,6 +54,7 @@
         </table>
 
     </div>
+    
 
     <footer>
         <ul class="footer-list">
